@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.Xmen.XmenApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-11T23:44:38" hostname="DESKTOP-JSQGSFJ" time="0.62">
+<testsuite name="com.example.Xmen.XmenApplicationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-10-13T20:05:23" hostname="DESKTOP-JSQGSFJ" time="0.713">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.Xmen.XmenApplicationTests" time="0.62"/>
-  <system-out><![CDATA[20:44:31.531 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.Xmen.XmenApplicationTests]: XmenApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-20:44:31.688 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.Xmen.XmenApplication for test class com.example.Xmen.XmenApplicationTests
+  <testcase name="recibirNull()" classname="com.example.Xmen.XmenApplicationTests" time="0.596"/>
+  <testcase name="arrayNxM()" classname="com.example.Xmen.XmenApplicationTests" time="0.005"/>
+  <testcase name="arrayVacio()" classname="com.example.Xmen.XmenApplicationTests" time="0.007"/>
+  <testcase name="prueba1()" classname="com.example.Xmen.XmenApplicationTests" time="0.011"/>
+  <testcase name="prueba2()" classname="com.example.Xmen.XmenApplicationTests" time="0.007"/>
+  <testcase name="prueba3()" classname="com.example.Xmen.XmenApplicationTests" time="0.008"/>
+  <testcase name="prueba4()" classname="com.example.Xmen.XmenApplicationTests" time="0.007"/>
+  <testcase name="prueba5()" classname="com.example.Xmen.XmenApplicationTests" time="0.007"/>
+  <testcase name="prueba6()" classname="com.example.Xmen.XmenApplicationTests" time="0.011"/>
+  <testcase name="prueba7()" classname="com.example.Xmen.XmenApplicationTests" time="0.007"/>
+  <testcase name="arrayNumeros()" classname="com.example.Xmen.XmenApplicationTests" time="0.006"/>
+  <testcase name="arrayOtrasLetras()" classname="com.example.Xmen.XmenApplicationTests" time="0.009"/>
+  <system-out><![CDATA[17:05:16.916 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.Xmen.XmenApplicationTests]: XmenApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:05:17.072 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.Xmen.XmenApplication for test class com.example.Xmen.XmenApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,7 +25,7 @@
 
  :: Spring Boot ::                (v3.3.3)
 
-2024-10-11T20:44:32.231-03:00  WARN 10804 --- [Xmen] [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+2024-10-13T17:05:17.583-03:00  WARN 5792 --- [Xmen] [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
 
 Found multiple occurrences of org.json.JSONObject on the class path:
 
@@ -23,24 +34,24 @@ Found multiple occurrences of org.json.JSONObject on the class path:
 
 You may wish to exclude one of them to ensure predictable runtime behavior
 
-2024-10-11T20:44:32.244-03:00  INFO 10804 --- [Xmen] [    Test worker] com.example.Xmen.XmenApplicationTests    : Starting XmenApplicationTests using Java 17.0.12 with PID 10804 (started by Julieta in C:\Users\Julieta\Desktop\Parcial Desarrollo de Software\Xmen)
-2024-10-11T20:44:32.244-03:00  INFO 10804 --- [Xmen] [    Test worker] com.example.Xmen.XmenApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2024-10-11T20:44:33.405-03:00  INFO 10804 --- [Xmen] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-10-11T20:44:33.514-03:00  INFO 10804 --- [Xmen] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 2 JPA repository interfaces.
-2024-10-11T20:44:34.186-03:00  INFO 10804 --- [Xmen] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-11T20:44:34.296-03:00  INFO 10804 --- [Xmen] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-10-11T20:44:34.374-03:00  INFO 10804 --- [Xmen] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-10-11T20:44:34.842-03:00  INFO 10804 --- [Xmen] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-10-11T20:44:34.889-03:00  INFO 10804 --- [Xmen] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-10-11T20:44:35.139-03:00  INFO 10804 --- [Xmen] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:C:/Users/Julieta/data/testdb user=SA
-2024-10-11T20:44:35.155-03:00  INFO 10804 --- [Xmen] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-10-11T20:44:35.171-03:00  WARN 10804 --- [Xmen] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-10-11T20:44:36.306-03:00  INFO 10804 --- [Xmen] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-10-11T20:44:36.368-03:00  INFO 10804 --- [Xmen] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-11T20:44:36.868-03:00  INFO 10804 --- [Xmen] [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-10-11T20:44:37.728-03:00  WARN 10804 --- [Xmen] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-11T20:44:38.321-03:00  INFO 10804 --- [Xmen] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/Julieta/data/testdb'
-2024-10-11T20:44:38.415-03:00  INFO 10804 --- [Xmen] [    Test worker] com.example.Xmen.XmenApplicationTests    : Started XmenApplicationTests in 6.494 seconds (process running for 7.988)
+2024-10-13T17:05:17.604-03:00  INFO 5792 --- [Xmen] [    Test worker] com.example.Xmen.XmenApplicationTests    : Starting XmenApplicationTests using Java 17.0.12 with PID 5792 (started by Julieta in C:\Users\Julieta\Desktop\XMENS)
+2024-10-13T17:05:17.604-03:00  INFO 5792 --- [Xmen] [    Test worker] com.example.Xmen.XmenApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-10-13T17:05:18.715-03:00  INFO 5792 --- [Xmen] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-13T17:05:18.793-03:00  INFO 5792 --- [Xmen] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2024-10-13T17:05:19.481-03:00  INFO 5792 --- [Xmen] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-13T17:05:19.574-03:00  INFO 5792 --- [Xmen] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-13T17:05:19.637-03:00  INFO 5792 --- [Xmen] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-13T17:05:20.106-03:00  INFO 5792 --- [Xmen] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-13T17:05:20.137-03:00  INFO 5792 --- [Xmen] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-13T17:05:20.403-03:00  INFO 5792 --- [Xmen] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:C:/Users/Julieta/data/testdb user=SA
+2024-10-13T17:05:20.418-03:00  INFO 5792 --- [Xmen] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-13T17:05:20.434-03:00  WARN 5792 --- [Xmen] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-13T17:05:21.560-03:00  INFO 5792 --- [Xmen] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-13T17:05:21.639-03:00  INFO 5792 --- [Xmen] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-13T17:05:22.139-03:00  INFO 5792 --- [Xmen] [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-13T17:05:22.983-03:00  WARN 5792 --- [Xmen] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-13T17:05:23.585-03:00  INFO 5792 --- [Xmen] [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:C:/Users/Julieta/data/testdb'
+2024-10-13T17:05:23.663-03:00  INFO 5792 --- [Xmen] [    Test worker] com.example.Xmen.XmenApplicationTests    : Started XmenApplicationTests in 6.372 seconds (process running for 7.882)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
