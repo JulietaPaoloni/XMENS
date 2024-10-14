@@ -10,12 +10,12 @@
 
 - /mutant: https://xmenparcial1.onrender.com/api/v1/dna/mutant
 
-Explicación: Usamos este link para agregar un nuevo adn (dna en mi proyecto) a la base de datos a través de "postman". En el body colocamos una secuencia de adn en formato JSON, en este caso yo utilicé una para mutante y otra secuencia para no mutante.
+Explicación: Usamos esta ruta para agregar un nuevo adn (dna en mi proyecto) a la base de datos a través de "postman". En el body colocamos una secuencia de adn en formato JSON, en este caso yo utilicé una para mutante y otra secuencia para no mutante.
 Se adjunta imágen en el punto 2 de como agregamos un adn y en el punto 3 de como lo visualizamos en la base de datos h2.
 
 - /stats: https://xmenparcial1.onrender.com/api/v1/dna/stats
 
- Explicación: En este link se detalla la cantidad de humanos, mutantes y la cantidad de humanos por mutante (ratio).
+ Explicación: En esta ruta se detalla la cantidad de humanos, mutantes y la cantidad de humanos por mutante (ratio).
 
 
 
