@@ -72,8 +72,10 @@ Para obtener estadísticas sobre la base de datos de ADN, realizamos una solicit
 
 La imagen muestra una consulta SQL ejecutada en una base de datos H2 para la entidad DNA,
 con dos filas. La primera fila tiene un valor “mutante” como false. La segunda fila tiene un valor “mutante” como true.
+
 ![H2](https://github.com/JulietaPaoloni/XMENS/blob/main/h2.jfif)
 
+Aclarando: que en la entidad DNA se persisten los dna de las personas indicando si es mutante o no.
 
 
 
