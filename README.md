@@ -66,8 +66,7 @@ Para obtener estadísticas sobre la base de datos de ADN, realizamos una solicit
 }
 ```
 
-
-
+![Postman](https://github.com/JulietaPaoloni/XMENS/blob/main/stats.PNG)
 
 ## Base de datos H2
 
