@@ -10,7 +10,7 @@ Esta API permite detectar si un humano es mutante a partir de su secuencia de AD
 
 ### Características
 - **Base de Datos**: Utiliza una base de datos H2.
-- **Hosting**: Está hosteada en Render, y puedes accederla en [https://xmenparcial1.onrender.com](https://xmenparcial1.onrender.com).
+- **Hosting**: Está hosteada en Render [https://xmenparcial1.onrender.com](https://xmenparcial1.onrender.com).
   
 ## Nivel 2 - Postman
 ## Endpoints
